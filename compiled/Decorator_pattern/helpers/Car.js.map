@@ -1,0 +1,1 @@
+{"version":3,"file":"Car.js","sourceRoot":"","sources":["../../../Decorator_pattern/helpers/Car.ts"],"names":[],"mappings":";;;AAAA;IAIE,aAAY,KAAa,EAAE,KAAa;QACtC,IAAI,CAAC,KAAK,GAAG,KAAK,CAAC;QACnB,IAAI,CAAC,KAAK,GAAG,KAAK,CAAC;IACrB,CAAC;IAEM,4BAAc,GAArB;QACE,OAAO,IAAI,CAAC,KAAK,CAAC;IACpB,CAAC;IAGH,UAAC;AAAD,CAAC,AAdD,IAcC;AAdqB,kBAAG"}
