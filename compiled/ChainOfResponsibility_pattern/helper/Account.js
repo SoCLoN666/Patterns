@@ -7,8 +7,8 @@ var Account = /** @class */ (function () {
         this.name = name;
     }
     Account.prototype.pay = function (priceOfOrder) {
-        var werePaidByAnyCard = this.performPayment(priceOfOrder);
-        this.notEnough(werePaidByAnyCard);
+        var paymentStatus = this.performPayment(priceOfOrder);
+        this.notEnough(paymentStatus);
     };
     Account.prototype.performPayment = function (priceOfOrder) {
         if (this.makePayment(priceOfOrder)) {

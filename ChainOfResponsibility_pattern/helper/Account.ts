@@ -1,5 +1,3 @@
-import { MasterCard } from "../paySystems/MasterCard";
-import { PayPal } from "../paySystems/PayPal";
 import { AccountTypes } from "./types";
 
 export class Account {
