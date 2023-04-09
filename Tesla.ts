@@ -1,4 +1,4 @@
-import { Car } from "./Decorator_pattern/helpers/Car";
+import { Car } from "./Decorator/helpers/Car";
 
 export class Tesla extends Car {
   public model = "Model 3";

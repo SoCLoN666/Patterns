@@ -15,19 +15,17 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tesla = void 0;
-var Car_1 = require("./Decorator/helpers/Car");
-var Tesla = /** @class */ (function (_super) {
-    __extends(Tesla, _super);
-    function Tesla() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.model = "Model 3";
+exports.MasterCard = void 0;
+var Account_1 = require("../helper/Account");
+var MasterCard = /** @class */ (function (_super) {
+    __extends(MasterCard, _super);
+    function MasterCard(balance) {
+        var _this = _super.call(this, balance, "MasterCard") || this;
+        _this.name = "MasterCard";
+        _this.balance = balance;
         return _this;
     }
-    Tesla.prototype.getPrice = function () {
-        return 30000;
-    };
-    return Tesla;
-}(Car_1.Car));
-exports.Tesla = Tesla;
-//# sourceMappingURL=Tesla.js.map
+    return MasterCard;
+}(Account_1.Account));
+exports.MasterCard = MasterCard;
+//# sourceMappingURL=MasterCard.js.map

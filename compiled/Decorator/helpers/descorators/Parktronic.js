@@ -15,19 +15,20 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tesla = void 0;
-var Car_1 = require("./Decorator/helpers/Car");
-var Tesla = /** @class */ (function (_super) {
-    __extends(Tesla, _super);
-    function Tesla() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.model = "Model 3";
-        return _this;
+exports.Parktronic = void 0;
+var CarOptions_1 = require("../CarOptions");
+var Parktronic = /** @class */ (function (_super) {
+    __extends(Parktronic, _super);
+    function Parktronic(car) {
+        return _super.call(this, car) || this;
     }
-    Tesla.prototype.getPrice = function () {
-        return 30000;
+    Parktronic.prototype.getPrice = function () {
+        return this.car.getPrice() + 2000;
     };
-    return Tesla;
-}(Car_1.Car));
-exports.Tesla = Tesla;
-//# sourceMappingURL=Tesla.js.map
+    Parktronic.prototype.getCarDescription = function () {
+        return "".concat(_super.prototype.getDescription.call(this), " with Parktronic");
+    };
+    return Parktronic;
+}(CarOptions_1.CarOptions));
+exports.Parktronic = Parktronic;
+//# sourceMappingURL=Parktronic.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"MasterCard.js","sourceRoot":"","sources":["../../../ChainOfResponsibility/paySystems/MasterCard.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;AAAA,6CAA4C;AAE5C;IAAgC,8BAAO;IAIrC,oBAAY,OAAe;QAA3B,YACE,kBAAM,OAAO,EAAE,YAAY,CAAC,SAE7B;QAND,UAAI,GAAG,YAAY,CAAC;QAKlB,KAAI,CAAC,OAAO,GAAG,OAAO,CAAC;;IACzB,CAAC;IACH,iBAAC;AAAD,CAAC,AARD,CAAgC,iBAAO,GAQtC;AARY,gCAAU"}

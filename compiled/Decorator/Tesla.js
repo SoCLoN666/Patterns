@@ -16,16 +16,14 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Tesla = void 0;
-var Car_1 = require("./Decorator/helpers/Car");
+var Car_1 = require("./helpers/Car");
 var Tesla = /** @class */ (function (_super) {
     __extends(Tesla, _super);
-    function Tesla() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.model = "Model 3";
-        return _this;
+    function Tesla(model, price) {
+        return _super.call(this, model, price) || this;
     }
     Tesla.prototype.getPrice = function () {
-        return 30000;
+        return this.price;
     };
     return Tesla;
 }(Car_1.Car));
